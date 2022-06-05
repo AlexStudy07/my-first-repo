@@ -1,6 +1,6 @@
 README.md: guessinggame.sh
 
-	@echo "# Guessing Game" >> README.md
+	@echo "# Guessing Game" > README.md
 
 	@date >> README.md
 	@echo >> README.md
