@@ -1,6 +1,7 @@
-proj name:
-	echo "guessinggame">readme.md
+README.md: guessinggame.sh
 
-	date>>readme.md
+	@echo "# Guessing Game" >> README.md
 
-	wc -l guessinggame.sh>>readme.md	
+	@date >> README.md
+	@echo >> README.md
+	@cat guessinggame.sh | wc -l >> README.md
